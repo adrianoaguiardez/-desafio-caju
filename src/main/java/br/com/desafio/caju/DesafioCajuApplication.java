@@ -1,0 +1,13 @@
+package br.com.desafio.caju;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DesafioCajuApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DesafioCajuApplication.class, args);
+	}
+
+}
