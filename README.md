@@ -38,3 +38,6 @@ docker pull openjdk:17-jdk-slim-buster
 "merchant": "UBER TRIP                   SAO PAULO BR"
 }
 
+## L4. Questão aberta
+Para lidar com a possibilidade de duas transações ocorrerem simultaneamente, utilizei um Lock PESSIMISTIC no registro.
+
