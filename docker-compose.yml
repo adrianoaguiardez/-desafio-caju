@@ -29,7 +29,7 @@ services:
     image: desafio-api
     build: .
     environment:
-      - DATABASE_URL=jdbc:postgresql://192.168.0.120:5432/dbdesafio_caju
+      - DATABASE_URL=jdbc:postgresql://postgres_server:5432/dbdesafio_caju
       - DATABASE_USERNAME=postgres
       - DATABASE_PASSWORD=12345678
     ports:
